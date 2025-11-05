@@ -3,8 +3,8 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <Button variant={'default'}>Hello World</Button>
+    <div className="flex min-h-screen home-wrapper">
+      <Button variant={"default"}>Hello World</Button>
     </div>
   );
 };
